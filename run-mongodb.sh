@@ -1,2 +1,2 @@
 #!/bin/bash
-mongod --dbpath /data/db --httpinterface
+mongod --config ./mongodb.conf --install

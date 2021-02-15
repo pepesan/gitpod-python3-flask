@@ -1,2 +1,2 @@
 #!/bin/bash
-mongod --config ./mongodb.conf --install
+mongod --config ./mongodb.conf

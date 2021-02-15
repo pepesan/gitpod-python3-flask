@@ -6,7 +6,5 @@ ports:
       onOpen: open-preview
     - port: 27017
       onOpen: notify
-    - port: 28017
-      onOpen: open-browser
 tasks:
   - init: pip3 install -r requirements.txt

@@ -14,4 +14,4 @@ RUN mkdir -p /tmp/mongodb && \
     sudo mkdir -p /data/db && \
     sudo chown gitpod:gitpod -R /data/db
 
-RUN mongod --dbpath /data/db
+#RUN mongod --dbpath /data/db
